@@ -1,9 +1,8 @@
+#N queens problem
+
 #Number of queens
 print ("Enter the number of queens")
 N = int(input())
-
-#chessboard
-#NxN matrix with all elements 0
 board = [[0]*N for _ in range(N)]
 
 def is_attack(i, j):

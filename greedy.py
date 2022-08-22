@@ -1,5 +1,4 @@
 #greedy approach
-
 nums=[int(x) for x in input().split()]
 total=int(input('enter the sum'))
 req=[]

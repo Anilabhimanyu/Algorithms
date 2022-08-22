@@ -5,7 +5,7 @@ req=[]
 
 def noOfCoins(total,nums,req):
   if total==0:
-    return sum(req)
+    return req
   a=(total//max(nums))
   for i in range(a):
     req.append(max(nums))
